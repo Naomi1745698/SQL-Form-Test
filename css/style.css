@@ -55,7 +55,7 @@ html,body{
   text-decoration: underline;
 }
 .header .active{
-  color: #ffade1 !important;
+  color: #0088ce !important;
 }
 .header .logo{
   display: inline-block;
@@ -106,7 +106,7 @@ html,body{
   left: 0px;
   margin: -27px auto;
   z-index: 4;
-  background-color: #ffade1;
+  background-color: #0088ce;
   outline: 6px solid rgba(255, 173, 225, 0.52);
 }
 .goahead a{
@@ -126,7 +126,7 @@ html,body{
 padding: 110px 200px 50px 200px;
 }
 .about-me .about-me-intero h1{
-  color: #ffade1;
+  color: #0088ce;
   text-align: center;
   font-weight: bold;
   padding-bottom: 50px ;
@@ -150,13 +150,13 @@ padding: 110px 200px 50px 200px;
   display: block;
 }
 .about-me-block .item h3{
-  color: #ffade1;
+  color: #0088ce;
   text-align: center;
 }
 .about-me-block .item p{
   padding: 10px 65px 0px 65px;
   text-align: left;
-  color: #ffade1;
+  color: #0088ce;
   line-height: 25px;
   word-spacing: 0px;
   text-align: justify;
@@ -190,7 +190,7 @@ padding: 50px 0px;
 .more-details > img{
   float: right;
   padding: 10px;
-  background-color: #ffade1;
+  background-color: #0088ce;
   outline: 8px solid rgba(255, 173, 225, 0.52);
   margin: 30px;
   cursor: pointer;
@@ -203,7 +203,7 @@ padding: 50px 0px;
   width: 401px;
   right: 0;
   margin: auto;
-  background-color: #ffade1;
+  background-color: #0088ce;
   display: block;
 }
 
@@ -238,7 +238,7 @@ padding: 50px 0px;
  font-size: 1.2em;
  width: 250px;
  color:#fff;
- background-color: #ffade1;
+ background-color: #0088ce;
  text-transform: uppercase;
  background-image: url("../img/Arrow.png");
  background-repeat: no-repeat;
@@ -252,7 +252,7 @@ padding: 50px 0px;
   overflow: auto;
 }
 .contact-us h1{
-  color: #ffade1;
+  color: #0088ce;
   text-align: center;
   padding: 0px 0px 60px 0px;
 }
@@ -275,12 +275,10 @@ padding: 50px 0px;
   font-size: 2em;
   padding: 5px 25px;
   color: #AAA;
-
-
 }
+
 .contact-us input::-webkit-input-placeholder, .contact-us textarea::-webkit-input-placeholder {
   color: #cecece;
-
 }
 
 .contact-us form textarea{
@@ -295,6 +293,7 @@ padding: 50px 0px;
  padding: 5px 25px;
  color: #AAA;
 }
+
 .contact-us button{
   text-align: center;
   display: inline-block;
@@ -303,61 +302,36 @@ padding: 50px 0px;
   font-size: 1.2em;
   width: 250px;
   color:#fff;
-  background-color: #ffade1;
+  background-color: #0088ce;
   text-transform: uppercase;
   letter-spacing: 2px;
   border: 0;
 }
+
 .footer{
-  background-color: #ffade1;
+  background-color: #0088ce;
   height: 200px;
   width: 100%;
 }
-.sociaux{
-  overflow: auto;
-  padding: 0 204px;
-  margin-top: -51px;
-}
-.sociaux .facebook,.sociaux .dribbble,.sociaux .twitter{
-  display: inline-block;
-  text-align: center;
-}
-.sociaux .facebook a ,.sociaux .dribbble a, .sociaux .twitter a{
-  width: 100px;
-  height: 100px;
-  background-color: #f6f6f6;
-  border: 8px solid rgba(255, 173, 225, 0.52);
-  display: inline-block;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.sociaux .facebook a {
-  background-image: url("../img/facebook.png");
 
-}
-.sociaux .dribbble a {
-  background-image: url("../img/dribbble.png");
-}
-.sociaux .twitter a {
-  background-image: url("../img/twitter.png");
-}
 .copyright{
   position: absolute;
   margin: 130px 0px 0px 50px;
   color: #fff;
   font-size: arial;
   font-family: arial;
-
 }
+
 .copyright h5{
   font-size: 1.2em;
 }
+
 .copyright a{
   color: #fff;
   font-weight: bold;
   text-decoration: none;
 }
+
 .goTop{
   display: none;
   width: 43px;
@@ -372,7 +346,6 @@ padding: 50px 0px;
   color: #fff;
   cursor: pointer;
   border: 1px solid #fff;
-
 }
 
 /* media query*/
@@ -381,13 +354,14 @@ padding: 50px 0px;
 .header .logo {
   padding: 25px;
 }
+  
 .header .navbar ul li{
  display: block;
  float: left;
  padding:  15px 25px 15px 25px;
  background-color:  rgba(255, 173, 225, 0.39);
-
 }
+  
 .header .navbar ul li{
   display: none;
 }
@@ -401,14 +375,6 @@ padding: 50px 0px;
 .header .navbar ul {
  width: 100%;
  float: none;
-}
-.icon{
- position: absolute;
- display: block !important;
- float: right !important;
-background-color:  rgba(0, 0, 0, 0) !important;
- right: 0;
- top: 3px;
 }
 .header .responsive  li {
   float: none !important;
@@ -471,14 +437,7 @@ background-color:  rgba(0, 0, 0, 0) !important;
   width: 95%;
   margin: 5px auto ;
 }
-.sociaux{
-  padding: 0;
-  right: 0;
-  left: 0;
-  width: 90%;
-  margin: -50px auto;
-  position: absolute;
-}
+  
 .copyright{
   right: 0;
       left: 13px;
