@@ -1,6 +1,6 @@
 ## Naomi's GitHub Page
 
-This page is available at https://ppdm-sql-test.naomi.me/
+This page is available at http://ppdm.naomi.software/
 
 This page will later be used to present:
 - Information about Databases used
