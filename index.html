@@ -38,7 +38,7 @@
       <form action="">
         
         <!-- name and email-->
-        <div class="name-info">
+        <div class="name-info" id="nameEmail">
           <div float=left>
             <h4>Name:</h4>
             <input id="nameInput" type="text" name="" value="" placeholder="Name">
@@ -50,26 +50,38 @@
         </div>
         
         <!-- invovled personel-->
-        <div class="Involved Personel">
-          <h4>Please select boxes if incidents occurred, and if so, how many:</h4>
-          <input type="checkbox" id="INCIDENT_FATALITY_IND" name="fatInd" value="">
-          <label for="fatInd"> Fatalities</label>
-          <br>
+        <div class="name-info" id="fatalities">
+          <div float=left>
+            <h4>Please select boxes if incidents occurred, and if so, how many:</h4>
+            <input type="checkbox" id="INCIDENT_FATALITY_IND" name="fatInd" value="">
+            <label for="fatInd"> Fatalities</label>
+            <br>
+          </div>
+          <div float=right>
+            <h4>Number of Fatalities:</h4>
+            <input id="INCIDENT_FATALITIES_COUNT" type="number" name="INCIDENT_FATALITIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
+          </div>
+
+          <div float=left>            
+            <input type="checkbox" id="INCIDENT_INJURIES_IND" name="injInd" value="">
+            <label for="injInd"> Injuries</label>
+            <br>
+          </div>
+          <div float=right>
+            <h4>Number of Injuries:</h4>
+            <input id="INCIDENT_INJURIES_COUNT" type="number" name="INCIDENT_INJURIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
+          </div>
           
-          <input type="checkbox" id="INCIDENT_INJURIES_IND" name="injInd" value="">
-          <label for="injInd"> Injuries</label>
-          <br>
-          
-          <input type="checkbox" id="INCIDENT_PARTICIPANT_IND" name="parInd" value="">
-          <label for="parInd"> Participants</label>
-          <br>
-          
-          <h4>Number of Fatalities:</h4>
-          <input id="nameInput" type="text" name="" value="" placeholder="Enter a number...">
-          <h4>Number of Injuries:</h4>
-          <input id="emailInput" type="text" name="" value="" placeholder="Enter a number...">
-          <h4>Number of Participants:</h4>
-          <input id="emailInput" type="text" name="" value="" placeholder="Enter a number...">
+          <div float=left>            
+            <input type="checkbox" id="INCIDENT_PARTICIPANT_IND" name="parInd" value="">
+            <label for="parInd"> Participants</label>
+            <br>
+          </div>
+          <div float=right>
+            <h4>Number of Participants:</h4>
+            <input id="INCIDENT_PARTICIPANT_COUNT" type="number" name="INCIDENT_PARTICIPANT_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
+          </div>
+
         </div>
         
         <textarea name="name" rows="8" cols="80" placeholder="Short description of the incident (up to 4000 characters)"></textarea>
