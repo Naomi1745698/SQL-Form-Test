@@ -29,17 +29,17 @@
 
     <!--form here-->
     <div class="form-class wow fadeIn data-wow-duration="1s" data-wow-delay="0.5s"">
-      <h1>Please fill in the below values</h1>
+      <h2>Please fill in the below values</h2>
       <form action="">
 
         <!-- name and email-->
         <div class="form-line-info" id="nameEmail">
-          <div float=left>
-            <label for="nameInput">Name:</h4>
+          <div>
+            <label for="nameInput">Name:</label>
             <input id="nameInput" type="text" name="nameInput" value="" placeholder="Name">
           </div>
-          <div float=right>
-            <label for="emailInput">Email:</h4>
+          <div>
+            <label for="emailInput">Email:</label>
             <input id="emailInput" type="text" name="emailInput" value="" placeholder="Email">
           </div>
         </div>
@@ -52,7 +52,7 @@
             <label for="fatInd"> Fatalities</label>
             <br>
           </div>  -->
-          <div>
+          <div id="incidFatBox">
             <label for="INCIDENT_FATALITIES_COUNT">Number of Fatalities:</label>
             <input id="INCIDENT_FATALITIES_COUNT" type="number" name="INCIDENT_FATALITIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
           </div>
@@ -62,7 +62,7 @@
             <label for="injInd"> Injuries</label>
             <br>
           </div>  -->
-          <div>
+          <div id="incidInjBox">
             <label for="INCIDENT_INJURIES_COUNT">Number of Injuries:</label>
             <input id="INCIDENT_INJURIES_COUNT" type="number" name="INCIDENT_INJURIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
           </div>
@@ -72,8 +72,8 @@
             <label for="parInd"> Participants</label>
             <br>
           </div>  -->
-          <div>
-            <label for="INCIDENT_PARTICIPANT_COUNT">Number of Participants:</label>
+          <div id="incidParBox">
+            <label for="INCIDENT_PARTICIPANT_COUNT">Number of Participants: </label>
             <input id="INCIDENT_PARTICIPANT_COUNT" type="number" name="INCIDENT_PARTICIPANT_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
           </div>
 
