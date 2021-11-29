@@ -27,9 +27,10 @@
 
     <div class="separate"></div>
 
-    <!--form here-->
     <div class="form-class wow fadeIn data-wow-duration="1s" data-wow-delay="0.5s"">
       <h2>Please fill in the below values</h2>
+      
+    <!--form here-->
       <form action="">
 
         <!-- name and email-->
@@ -45,47 +46,22 @@
         </div>
 
         <!-- invovled personel-->
-        <div class="form-line-info" id="fatalities">
-<!--          <div float=left>
-            <h4>Please select boxes if incidents occurred, and if so, how many:</h4>
-            <input type="checkbox" id="INCIDENT_FATALITY_IND" name="fatInd" value="">
-            <label for="fatInd"> Fatalities</label>
-            <br>
-          </div>  -->
-          <div id="incidFatBox">
-            <label for="INCIDENT_FATALITIES_COUNT">Number of Fatalities:</label>
-            <input id="INCIDENT_FATALITIES_COUNT" type="number" name="INCIDENT_FATALITIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
-          </div>
+        <label for="INCIDENT_FATALITIES_COUNT">Number of Fatalities:</label>
+        <input id="INCIDENT_FATALITIES_COUNT" type="number" name="INCIDENT_FATALITIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
 
-<!--          <div float=left>
-            <input type="checkbox" id="INCIDENT_INJURIES_IND" name="injInd" value="">
-            <label for="injInd"> Injuries</label>
-            <br>
-          </div>  -->
-          <div id="incidInjBox">
-            <label for="INCIDENT_INJURIES_COUNT">Number of Injuries:</label>
-            <input id="INCIDENT_INJURIES_COUNT" type="number" name="INCIDENT_INJURIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
-          </div>
+        <label for="INCIDENT_INJURIES_COUNT">Number of Injuries:</label>
+        <input id="INCIDENT_INJURIES_COUNT" type="number" name="INCIDENT_INJURIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
 
-<!--          <div float=left>
-            <input type="checkbox" id="INCIDENT_PARTICIPANT_IND" name="parInd" value="">
-            <label for="parInd"> Participants</label>
-            <br>
-          </div>  -->
-          <div id="incidParBox">
-            <label for="INCIDENT_PARTICIPANT_COUNT">Number of Participants: </label>
-            <input id="INCIDENT_PARTICIPANT_COUNT" type="number" name="INCIDENT_PARTICIPANT_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
-          </div>
+        <label for="INCIDENT_PARTICIPANT_COUNT">Number of Participants: </label>
+        <input id="INCIDENT_PARTICIPANT_COUNT" type="number" name="INCIDENT_PARTICIPANT_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
 
-          <div id="descBox">
-            <label for="DESCRIPTION_ID">Description: </label>
-            <input type="text" id="DESCRIPTION_ID" name="DESCRIPTION_ID" maxlength="4000" placeholder="Short description of the incident (up to 4000 characters)">
-          </div>
-        </div>
+        <label for="DESCRIPTION_ID">Description: </label>
+        <input type="text" id="DESCRIPTION_ID" name="DESCRIPTION_ID" maxlength="4000" placeholder="Short description of the incident (up to 4000 characters)">
 
         <div class="wow zoomIn  data-wow-duration="1s" data-wow-delay="0.5s"">
           <button type="submit">Submit</button>
         </div>
+        
       </form>
     </div>
 
@@ -107,3 +83,25 @@
 
   </body>
 </html>
+
+
+
+<!-- misc other code: -->
+
+        <!-- invovled personel-->
+<!--          <div float=left>
+            <h4>Please select boxes if incidents occurred, and if so, how many:</h4>
+            <input type="checkbox" id="INCIDENT_FATALITY_IND" name="fatInd" value="">
+            <label for="fatInd"> Fatalities</label>
+            <br>
+          </div>
+          <div float=left>
+            <input type="checkbox" id="INCIDENT_INJURIES_IND" name="injInd" value="">
+            <label for="injInd"> Injuries</label>
+            <br>
+          </div>
+          <div float=left>
+            <input type="checkbox" id="INCIDENT_PARTICIPANT_IND" name="parInd" value="">
+            <label for="parInd"> Participants</label>
+            <br>
+          </div>  -->
