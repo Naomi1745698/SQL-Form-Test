@@ -68,7 +68,7 @@ padding: 55px 100px 25px 100px;
 }
 
 .form-class label{
-  display: block;
+ display: block;
  font-family: sans-serif;
  color: #9298b3;
 }
@@ -98,6 +98,19 @@ padding: 55px 100px 25px 100px;
 
 .form-class input::-webkit-input-placeholder{
   color: #cecece;
+}
+
+.form-class form textarea{
+ margin: 5px;
+ width: 350px;
+ height: 120px;
+ background-color: #e4e8e8;
+ outline: none;
+ border: 0;
+ resize: none;
+ font-size: 2em;
+ padding: 3px 12px;
+ color: #AAA;
 }
 
 .form-class button{
@@ -174,10 +187,6 @@ padding: 55px 100px 25px 100px;
   display: inline;
   margin: 5px auto;
   width: 95%;
-}
-.form-class form textarea {
-  width: 95%;
-  margin: 5px auto ;
 }
 
 .copyright{
