@@ -60,20 +60,30 @@ padding: 55px 100px 25px 100px;
   width: 100%;
   overflow: auto;
 }
-.form-class h1{
+
+.form-class h2{
   color: #0088ce;
   text-align: center;
   padding: 0px 0px 30px 0px;
 }
+
+.form-class label{
+  display: block;
+ font-family: sans-serif;
+ color: #9298b3;
+}
+
 .form-class form{
  text-align: center;
-
+ display: inline-block;
 }
+
 .form-line-info{
   width: 750px;
   margin: auto;
   text-align: center;
 }
+
 .form-class .form-line-info input{
   width: 350px;
   height: 50px;
@@ -88,19 +98,6 @@ padding: 55px 100px 25px 100px;
 
 .form-class input::-webkit-input-placeholder{
   color: #cecece;
-}
-
-.form-class form textarea{
- margin: 5px;
- width: 350px;
- height: 120px;
- background-color: #e4e8e8;
- outline: none;
- border: 0;
- resize: none;
- font-size: 2em;
- padding: 3px 12px;
- color: #AAA;
 }
 
 .form-class button{
@@ -120,7 +117,7 @@ padding: 55px 100px 25px 100px;
 .footer{
   padding: 15px;
   background-color: #0088ce;
-  height: 200px;
+  height: 210px;
   width: 100%;
   font-size: 1.2em;
 }
