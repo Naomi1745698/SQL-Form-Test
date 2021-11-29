@@ -8,27 +8,27 @@ html,body{
   height: 100%;
 }
 
-.about-me{
+.form-title{
  padding: 25px 35px;
  overflow: auto;
 }
-.about-me-intero{
+.form-title-intero{
 padding: 55px 100px 25px 100px;
 }
-.about-me .about-me-intero h1{
+.form-title .form-title-intero h1{
   color: #0088ce;
   text-align: center;
   font-weight: bold;
   padding-bottom: 25px ;
 }
-.about-me .about-me-intero p{
+.form-title .form-title-intero p{
  text-align: center;
  font-family: sans-serif;
  color: #9298b3;
  padding: 0px 70px;
  line-height: 12px;
 }
-.about-me-block{
+.form-title-block{
   overflow: auto;
   padding: 5px 0px 0px 0px;
 }
@@ -36,11 +36,11 @@ padding: 55px 100px 25px 100px;
   padding: 0px;
 }
 
-.about-me-block .item h3{
+.form-title-block .item h3{
   color: #0088ce;
   text-align: center;
 }
-.about-me-block .item p{
+.form-title-block .item p{
   padding: 5px 30px 0px 30px;
   text-align: left;
   color: #0088ce;
@@ -55,26 +55,26 @@ padding: 55px 100px 25px 100px;
   overflow: auto;
 }
 
-.contact-us{
+.form-class{
   padding: 25px 0 100px 0;
   width: 100%;
   overflow: auto;
 }
-.contact-us h1{
+.form-class h1{
   color: #0088ce;
   text-align: center;
   padding: 0px 0px 30px 0px;
 }
-.contact-us form{
+.form-class form{
  text-align: center;
 
 }
-.name-info{
+.form-line-info{
   width: 750px;
   margin: auto;
   text-align: center;
 }
-.contact-us .name-info input{
+.form-class .form-line-info input{
   width: 350px;
   height: 50px;
   margin: 10px;
@@ -86,11 +86,11 @@ padding: 55px 100px 25px 100px;
   color: #AAA;
 }
 
-.contact-us input::-webkit-input-placeholder, .contact-us textarea::-webkit-input-placeholder {
+.form-class input::-webkit-input-placeholder{
   color: #cecece;
 }
 
-.contact-us form textarea{
+.form-class form textarea{
  margin: 5px;
  width: 350px;
  height: 120px;
@@ -103,7 +103,7 @@ padding: 55px 100px 25px 100px;
  color: #AAA;
 }
 
-.contact-us button{
+.form-class button{
   text-align: center;
   display: inline-block;
   padding: 10px;
@@ -120,7 +120,7 @@ padding: 55px 100px 25px 100px;
 .footer{
   padding: 15px;
   background-color: #0088ce;
-  height: 150px;
+  height: 200px;
   width: 100%;
   font-size: 1.2em;
 }
@@ -145,19 +145,19 @@ padding: 55px 100px 25px 100px;
 
 /* media query*/
 
-.about-me{
+.form-title{
   padding: 30px 7px 5px 7px ;
 }
 
-.about-me-intero {
+.form-title-intero {
   padding: 0;
 }
 
-.about-me .about-me-intero p {
+.form-title .form-title-intero p {
   padding: 7px 3px;
 }
 
-.about-me-block .item p {
+.form-title-block .item p {
   padding: 12px;
 }
 
@@ -165,20 +165,20 @@ padding: 55px 100px 25px 100px;
   margin: 0px 20px;
 }
 
-.contact-us{
+.form-class{
   width: 100%;
   overflow: visible;
   padding: 25px 0 30px 0;
 }
-.contact-us .name-info{
+.form-class .form-line-info{
   width: 100%;
 }
-.contact-us .name-info input {
-  display: block;
+.form-class .form-line-info input {
+  display: inline;
   margin: 5px auto;
   width: 95%;
 }
-.contact-us form textarea {
+.form-class form textarea {
   width: 95%;
   margin: 5px auto ;
 }
