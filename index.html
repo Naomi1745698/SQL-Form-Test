@@ -20,7 +20,7 @@
     <!-- Title/top of page form -->
     <div class="form-title">
       <div class="form-title-intero wow fadeIn  data-wow-duration="0.5s" data-wow-delay="0.5s"">
-        <h1>H2S Incidents Input Form</h1>
+        <h1>H2S Incidents Databse Input Form</h1>
         <p>Use this online form to input values from any H2S incidents - these will be saved on our database.</p>
       </div>
     </div>
@@ -32,46 +32,35 @@
     </div>
 
     <!--form here-->
-    <form action="">
+    <div class="the-form">
+      <form action="">
 
-        <!-- name and email-->
-      <div class="the-form" id="the-form">
-        <label for="nameInput">Name:</label>
-        <input id="nameInput" type="text" name="nameInput" value="" placeholder="Name">
-      </div>
+          <!-- name and email-->
+          <label for="nameInput">Name:</label>
+          <input id="nameInput" type="text" name="nameInput" value="" placeholder="Name">
 
-      <div class="the-form" id="the-form">
-        <label for="emailInput">Email:</label>
-        <input id="emailInput" type="text" name="emailInput" value="" placeholder="Email">
-      </div>
+          <label for="emailInput">Email:</label>
+          <input id="emailInput" type="text" name="emailInput" value="" placeholder="Email">
 
-        <!-- invovled personel-->
-      <div class="the-form" id="the-form">
-        <label for="INCIDENT_FATALITIES_COUNT">Number of Fatalities:</label>
-        <input id="INCIDENT_FATALITIES_COUNT" type="number" name="INCIDENT_FATALITIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
-      </div>
+          <!-- invovled personel-->
+          <label for="INCIDENT_FATALITIES_COUNT">Number of Fatalities:</label>
+          <input id="INCIDENT_FATALITIES_COUNT" type="number" name="INCIDENT_FATALITIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
 
-      <div class="the-form" id="the-form">
-        <label for="INCIDENT_INJURIES_COUNT">Number of Injuries:</label>
-        <input id="INCIDENT_INJURIES_COUNT" type="number" name="INCIDENT_INJURIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
-      </div>
+          <label for="INCIDENT_INJURIES_COUNT">Number of Injuries:</label>
+          <input id="INCIDENT_INJURIES_COUNT" type="number" name="INCIDENT_INJURIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
 
-      <div class="the-form" id="the-form">
-        <label for="INCIDENT_PARTICIPANT_COUNT">Number of Participants: </label>
-        <input id="INCIDENT_PARTICIPANT_COUNT" type="number" name="INCIDENT_PARTICIPANT_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
-      </div>
+          <label for="INCIDENT_PARTICIPANT_COUNT">Number of Participants: </label>
+          <input id="INCIDENT_PARTICIPANT_COUNT" type="number" name="INCIDENT_PARTICIPANT_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
 
-      <div class="the-form" id="the-form">
-        <label for="DESCRIPTION_ID">Description: </label>
-        <input type="text" id="DESCRIPTION_ID" name="DESCRIPTION_ID" maxlength="4000" placeholder="Short description of the incident (up to 4000 characters)">
-      </div>
+          <label for="DESCRIPTION_ID">Description: </label>
+          <input type="text" id="DESCRIPTION_ID" name="DESCRIPTION_ID" maxlength="4000" placeholder="Short description of the incident (up to 4000 characters)">
 
-      <div class="wow zoomIn  data-wow-duration="1s" data-wow-delay="0.5s"">
-        <button type="submit">Submit</button>
-      </div>
+        <div class="wow zoomIn  data-wow-duration="1s" data-wow-delay="0.5s"">
+          <button type="submit">Submit</button>
+        </div>
 
-    </form>
-
+      </form>
+    </div>
 
     <div class="separate"></div>
 
