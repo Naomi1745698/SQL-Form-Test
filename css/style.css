@@ -70,14 +70,14 @@ padding: 55px 100px 25px 100px;
 
 }
 .name-info{
-  width: 350px;
+  width: 750px;
   margin: auto;
   text-align: center;
 }
 .contact-us .name-info input{
-  width: 150px;
-  height: 25px;
-  margin: 5px ;
+  width: 350px;
+  height: 50px;
+  margin: 10px;
   background-color: #e4e8e8;
   outline: none;
   border: 0;
@@ -118,9 +118,9 @@ padding: 55px 100px 25px 100px;
 }
 
 .footer{
-  padding: 10px;
+  padding: 15px;
   background-color: #0088ce;
-  height: 100px;
+  height: 150px;
   width: 100%;
   font-size: 1.2em;
 }
@@ -128,7 +128,7 @@ padding: 55px 100px 25px 100px;
 .copyright{
   position: absolute;
   margin: 60px 0px 0px 25px;
-  color: #fff;
+  color: #ffffff;
   font-size: arial;
   font-family: arial;
 }
