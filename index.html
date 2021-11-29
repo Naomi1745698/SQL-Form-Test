@@ -28,11 +28,6 @@
     <div class="separate"></div>
 
     <!--form here-->
-
-    <div class="separate"></div>
-
-    <!-- contact-me -->
-
     <div class="contact-us wow fadeIn data-wow-duration="1s" data-wow-delay="0.5s"">
       <h1>Please fill in the below values</h1>
       <form action="">
@@ -58,7 +53,7 @@
             <br>
           </div>  -->
           <div>
-            <h4>Number of Fatalities:</h4>
+            <label for="INCIDENT_FATALITIES_COUNT">Number of Fatalities:</label>
             <input id="INCIDENT_FATALITIES_COUNT" type="number" name="INCIDENT_FATALITIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
           </div>
 
@@ -67,8 +62,8 @@
             <label for="injInd"> Injuries</label>
             <br>
           </div>  -->
-          <div float=right>
-            <h4>Number of Injuries:</h4>
+          <div>
+            <label for="INCIDENT_INJURIES_COUNT">Number of Injuries:</label>
             <input id="INCIDENT_INJURIES_COUNT" type="number" name="INCIDENT_INJURIES_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
           </div>
 
@@ -77,20 +72,24 @@
             <label for="parInd"> Participants</label>
             <br>
           </div>  -->
-          <div float=right>
-            <h4>Number of Participants:</h4>
+          <div>
+            <label for="INCIDENT_PARTICIPANT_COUNT">Number of Participants:</label>
             <input id="INCIDENT_PARTICIPANT_COUNT" type="number" name="INCIDENT_PARTICIPANT_COUNT" value="" placeholder="Enter a number..." min="0" max="99999">
           </div>
 
+          <div id="descBox">
+            <label for="DESCRIPTION_ID">Description: </label>
+            <input type="text" id="DESCRIPTION_ID" name="DESCRIPTION_ID" maxlength="4000" placeholder="Short description of the incident (up to 4000 characters)">
+          </div>
         </div>
 
-        <textarea name="name" rows="8" cols="80" placeholder="Short description of the incident (up to 4000 characters)"></textarea>
         <div class="wow zoomIn  data-wow-duration="1s" data-wow-delay="0.5s"">
           <button type="submit">Submit</button>
         </div>
-
       </form>
     </div>
+
+    <div class="separate"></div>
 
     <div class="footer">
       <div id="foota" float=center>
