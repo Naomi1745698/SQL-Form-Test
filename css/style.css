@@ -138,7 +138,7 @@ padding: 55px 100px 25px 100px;
 
 
 /* CSS */
-.button-class {
+.form-title button {
   align-items: center;
   appearance: none;
   background-color: #0088ce;
@@ -172,38 +172,38 @@ padding: 55px 100px 25px 100px;
   z-index: 0;
 }
 
-.button-class:hover {
+.form-title button:hover {
   background: #F6F9FE;
   color: #174ea6;
 }
 
-.button-class:active {
+.form-title button:active {
   box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
   outline: none;
 }
 
-.button-class:focus {
+.form-title buttons:focus {
   outline: none;
   border: 2px solid #4285f4;
 }
 
-.button-class:not(:disabled) {
+.form-title button:not(:disabled) {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
-.button-class:not(:disabled):hover {
+.form-title button:not(:disabled):hover {
   box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
 }
 
-.button-class:not(:disabled):focus {
+.form-title button:not(:disabled):focus {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
-.button-class:not(:disabled):active {
+.form-title button:not(:disabled):active {
   box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
 }
 
-.button-class:disabled {
+.form-title button:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
