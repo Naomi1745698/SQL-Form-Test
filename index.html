@@ -37,41 +37,16 @@
 
           <!-- name and email-->
         <div class="the-form" id="the-form1">
-          <label for="nameInput">Your name:</label>
+          <label for="nameInput">Your name: </label>
           <input id="nameInput" type="text" name="nameInput" value="" placeholder="Name">
         </div><br>
 
         <div class="the-form" id="the-form2">
-          <label for="SOURCE_ID">Your ID:</label>
+          <label for="SOURCE_ID">Your ID: </label>
           <input id="SOURCE_ID" type="text" name="SOURCE_ID" value="" placeholder="ID">
         </div><br>
 
-          <!-- invovled personel-->
-        <div class="the-form" id="the-form3">
-          <label for="INCIDENT_FATALITIES_COUNT">Number of Fatalities:</label>
-          <input id="INCIDENT_FATALITIES_COUNT" type="number" name="INCIDENT_FATALITIES_COUNT" value="0" min="0" max="99999">
-        </div><br>
-
-        <div class="the-form" id="the-form4">
-          <label for="INCIDENT_INJURIES_COUNT">Number of Injuries:</label>
-          <input id="INCIDENT_INJURIES_COUNT" type="number" name="INCIDENT_INJURIES_COUNT" value="0" min="0" max="99999">
-        </div><br>
-
-        <div class="the-form" id="the-form5">
-          <label for="INCIDENT_PARTICIPANT_COUNT">Number of Participants: </label>
-          <input id="INCIDENT_PARTICIPANT_COUNT" type="number" name="INCIDENT_PARTICIPANT_COUNT" value="0" min="0" max="99999">
-        </div><br>
-
-        <div class="the-form" id="the-form6">
-          <label for="CONCENTRATION">Concentration (in ppm): </label>
-          <input type="number" id="CONCENTRATION" name="CONCENTRATION" maxlength="10" placeholder="Number...">
-        </div><br>
-
-        <div class="the-form">
-          <label for="CORROSION_IND">Did corrosion occur? </label>
-          <input type="checkbox" id="DESCRIPTION_ID" name="DESCRIPTION_ID">
-        </div><br>
-
+        <!-- time and date -->
         <div class="the-form">
           <label for="INCIDENT_TIME">Time of incident: </label>
           <input type="time" id="INCIDENT_TIME" name="INCIDENT_TIME">
@@ -86,14 +61,41 @@
           <label for="INCIDENT_TIME_DURATION">Duration of incident: </label>
           <input type="date" id="INCIDENT_TIME_DURATION" name="INCIDENT_TIME_DURATION">
         </div><br>
+        
+        <!-- invovled personel-->
+        <div class="the-form" id="the-form3">
+          <label for="INCIDENT_FATALITIES_COUNT">Number of Fatalities: </label>
+          <input id="INCIDENT_FATALITIES_COUNT" type="number" name="INCIDENT_FATALITIES_COUNT" value="0" min="0" max="99999">
+        </div><br>
 
+        <div class="the-form" id="the-form4">
+          <label for="INCIDENT_INJURIES_COUNT">Number of Injuries: </label>
+          <input id="INCIDENT_INJURIES_COUNT" type="number" name="INCIDENT_INJURIES_COUNT" value="0" min="0" max="99999">
+        </div><br>
+
+        <div class="the-form" id="the-form5">
+          <label for="INCIDENT_PARTICIPANT_COUNT">Number of Participants: </label>
+          <input id="INCIDENT_PARTICIPANT_COUNT" type="number" name="INCIDENT_PARTICIPANT_COUNT" value="0" min="0" max="99999">
+        </div><br>
+        
+        <!-- other values -->
         <div class="the-form">
           <label for="SAMPLE_COUNT">If sample was collected, how many: </label>
           <input type="number" id="SAMPLE_COUNT" name="SAMPLE_COUNT" value="0" min="0" max="999">
         </div><br>
+        
+        <div class="the-form" id="the-form6">
+          <label for="CONCENTRATION">Concentration (in ppb): </label>
+          <input type="number" id="CONCENTRATION" name="CONCENTRATION" value="0" min="0" max="9999999999">
+        </div><br>
 
         <div class="the-form">
-          <label for="UWI">Unique Well Identifier: </label>
+          <label for="CORROSION_IND">Was corrosion detected: </label>
+          <input type="checkbox" id="DESCRIPTION_ID" name="DESCRIPTION_ID">
+        </div><br>
+
+        <div class="the-form">
+          <label for="UWI">Well ID where incident occured: </label>
           <input type="text" id="UWI" name="UWI" maxlength="40" placeholder="UWI...">
         </div><br>
 
@@ -103,7 +105,7 @@
         </div><br>
 
         <div class="the-form wow zoomIn data-wow-duration="1s" data-wow-delay="0.5s"">
-          <button type="submit">Submit</button>
+          <button type="submit" class="button-class" role="button">Submit</button>
         </div><br>
 
       </form>
@@ -128,7 +130,6 @@
 
   </body>
 </html>
-
 
 
 <!-- misc other code: -->
